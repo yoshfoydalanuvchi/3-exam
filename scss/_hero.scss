@@ -15,23 +15,6 @@
     p {
       margin-bottom: 2.5vw;
     }
-    button {
-      font-family: "PT Sans", sans-serif;
-      font-size: 16px;
-      font-weight: 700;
-      line-height: 24px;
-
-      border: 0.1875vw solid;
-      border-color: transparent transparent #ffce50;
-      background: none;
-      color: #363738;
-      transition: all 0.7s;
-      &:hover {
-        background-color: #ffce50;
-        color: white;
-        border-radius: 3px;
-      }
-    }
   }
   .hero__img {
     width: 39.6875vw;

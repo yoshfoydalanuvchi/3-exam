@@ -1,4 +1,6 @@
 $grey: #6b6b6c;
+$yellow: #ffce50;
+$brown: #363738;
 
 @import "fonts.scss";
 @import "hero.scss";
@@ -23,14 +25,65 @@ $grey: #6b6b6c;
   line-height: 24px;
   color: $grey;
 }
+.yellow-line {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+
+  border: 0.1875vw solid;
+  border-color: transparent transparent $yellow;
+  background: none;
+  color: $brown;
+  transition: all 0.7s;
+  &:hover {
+    background-color: $yellow;
+    color: white;
+    border-radius: 3px;
+  }
+}
 button {
   cursor: pointer;
 }
 img {
   width: 100%;
 }
+.middle-title {
+  font-family: "Exo 2", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+}
+.small-title {
+  font-family: "Exo 2", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+}
 @media (max-width: 768px) {
   .container {
+    padding-inline: 19px 59px;
     max-width: 100%;
+  }
+  .middle-title {
+    font-size: 44px;
+    line-height: 55px;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    padding-inline: 15px;
+  }
+  .subtitle {
+    font-size: 15px;
+    line-height: 22.5px;
+  }
+  .middle-title {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  .small-title {
+    font-size: 18px;
+    line-height: 24.3px;
   }
 }
