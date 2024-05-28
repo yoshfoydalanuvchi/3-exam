@@ -3,10 +3,10 @@
   .middle-title {
     margin-bottom: 48px;
   }
-  .steps__list {
+  .step__list {
     padding-left: 35px;
   }
-  .steps__item {
+  .step__item {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -18,7 +18,7 @@
     .steps__item-img {
       width: 331px;
     }
-    .steps__item-text {
+    .step__item-text {
       width: 568px;
       .small-title {
         margin-bottom: 48px;
