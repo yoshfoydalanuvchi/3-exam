@@ -7,6 +7,10 @@ $brown: #363738;
 @import "services.scss";
 @import "why-us.scss";
 @import "our-works.scss";
+@import "clients.scss";
+@import "steps.scss";
+@import "clients-logo.scss";
+
 * {
   margin: 0px;
   padding: 0px;
@@ -16,7 +20,7 @@ $brown: #363738;
   max-width: 1240px;
   width: 100%;
   margin-inline: auto;
-  padding-inline: 20px;
+  padding-inline: 100px;
 }
 .subtitle {
   font-family: "PT Sans", sans-serif;
@@ -62,12 +66,22 @@ img {
 }
 @media (max-width: 768px) {
   .container {
-    padding-inline: 19px 59px;
+    padding-inline: 0;
     max-width: 100%;
   }
   .middle-title {
     font-size: 44px;
     line-height: 55px;
+  }
+  .hero__container,
+  .service__container {
+    padding-inline: 39px;
+  }
+  .our-works__container {
+    padding-inline: 19px 59px;
+  }
+  .why-us__container {
+    padding-inline: 19px 20px;
   }
 }
 @media (max-width: 576px) {
@@ -85,5 +99,11 @@ img {
   .small-title {
     font-size: 18px;
     line-height: 24.3px;
+  }
+  .hero__container,
+  .service__container,
+  .our-works__container,
+  .why-us__container {
+    padding-inline: 15px;
   }
 }

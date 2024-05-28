@@ -3,21 +3,22 @@
   align-items: center;
   justify-content: space-between;
   padding-block: 6.8125vw 4.1875vw;
+  gap: 60px;
   .hero__text {
-    width: 33.4375vw;
+    width: 525px;
     h1 {
       font-family: "Exo 2", sans-serif;
-      font-size: 3.25vw;
+      font-size: 52px;
       font-weight: 600;
-      line-height: 4.0625vw;
-      margin-bottom: 2.5vw;
+      line-height: 65px;
+      margin-bottom: 40px;
     }
     p {
       margin-bottom: 2.5vw;
     }
   }
   .hero__img {
-    width: 39.6875vw;
+    width: 640px;
   }
 }
 
@@ -30,6 +31,7 @@
       text-align: center;
       margin-bottom: 3.125vw;
       h1 {
+        font-size: 44px;
         margin-bottom: 6.125vw;
       }
       p {
