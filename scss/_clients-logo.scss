@@ -35,3 +35,24 @@
     }
   }
 }
+@media (max-width: 768px) {
+  .client-logo__container {
+    .client-logo__list {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+@media (max-width: 534px) {
+  .client-logo__container {
+    .client-logo__list {
+      .clients-logo__item {
+        &:nth-child(5),
+        &:nth-child(6),
+        &:nth-child(7),
+        &:nth-child(8) {
+          display: none;
+        }
+      }
+    }
+  }
+}

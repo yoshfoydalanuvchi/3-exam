@@ -35,3 +35,30 @@
     }
   }
 }
+@media (max-width: 768px) {
+  .steps__container {
+    .step__item {
+      padding: 40px 76px 48px 85px;
+      margin-bottom: 14px;
+      img {
+        display: none;
+      }
+    }
+  }
+}
+@media (max-width: 534px) {
+  .steps__container {
+    .step__item {
+      padding: 24px 24px 32px 47px;
+
+      .step__item-text {
+        .small-title {
+          margin-bottom: 16px;
+          &::before {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
